@@ -79,7 +79,7 @@ app.layout = dbc.Container([
         dbc.Col([
             html.Div([
                 html.Img(
-                    src='/assets/vngrd.PNG',
+                    src='assets/vngrd.PNG',
                     className='logo', 
                     style={'height': '150px', 'object-fit': 'contain'}
                 )
