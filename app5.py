@@ -92,7 +92,7 @@ app.layout = dbc.Container([
                 'width': '100%'
             }),
             html.H1(
-                "2024 Annual Business Transfer Analysis", 
+                "2024 Annual Collections Analysis", 
                 className="text-primary text-center mb-4",
                 style={'letterSpacing': '2px'}
             )
