@@ -1,4 +1,4 @@
-# Import required libraries
+# Imports
 import pandas as pd
 import plotly.express as px
 import plotly.graph_objects as go
@@ -9,7 +9,7 @@ import dash_bootstrap_components as dbc
 import numpy as np
 import os
 
-# Initialize the app
+# App initialization
 app = dash.Dash(
     __name__, 
     external_stylesheets=[
@@ -18,7 +18,7 @@ app = dash.Dash(
     ]
 )
 
-# This is important for Render deployment
+# Render deployment
 server = app.server
 
 # Custom CSS
@@ -54,7 +54,7 @@ app.index_string = '''<!DOCTYPE html>
     </body>
 </html>'''
 
-# Monthly data from PDF
+# Monthly data
 monthly_data = pd.DataFrame({
     'Month': ['January', 'February', 'March', 'April', 'May', 'June', 
              'July', 'August', 'September', 'October', 'November', 'December'],
